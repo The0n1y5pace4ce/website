@@ -178,6 +178,12 @@ hr.small {
     margin-bottom: 30px;
 }
 
+/* 3D Printing */
+
+.print {
+    padding: 50px 0;
+}
+
 /* Callout */
 
 .callout {
