@@ -231,7 +231,39 @@ hr.small {
         height: 75%;
     }
 }
+.tag {
+    font-size: smaller;
+    padding: 20%;
+}
 
+#app {
+    width: 400px;
+}
+label {
+  color: #B4886B;
+  font-weight: bold;
+  width: 130px;
+}
+label:after { content: ": " }
+
+#button {
+    padding: 10px;
+    border: 1px solid gray;
+    background-color: #B4886B;
+    border-radius: 5px;
+    font: inherit;
+}
+
+#button:focus {
+    outline: 2px solid gray;
+    font-weight: bold;
+    color: white;
+}
+
+#button:hover {
+    background-color: orange;
+    box-shadow: 3px 3px 5px grey;
+}
 /* Footer */
 
 footer {
